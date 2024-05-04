@@ -17,4 +17,4 @@ export interface ILocationFilter {
 }
 
 export type IPaginationLocation = IPagination<ILocation>;
-export type IResponseCharacter = ILocation | ILocation[] | IPaginationLocation;
+export type IResponseLocation = ILocation | ILocation[] | IPaginationLocation;

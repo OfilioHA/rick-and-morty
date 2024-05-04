@@ -16,4 +16,4 @@ export interface IEpisodeFilter {
 }
 
 export type IPaginationEpisode = IPagination<IEpisode>;
-export type IResponseCharacter = IEpisode | IEpisode[] | IPaginationEpisode;
+export type IResponseEpisode  = IEpisode | IEpisode[] | IPaginationEpisode;
