@@ -6,8 +6,8 @@ export const axios: AxiosInstance = Axios.create({
 
 export const createAxiosSubInstance = (subroute: string): AxiosInstance => {
   return Axios.create({
-    baseURL: `${axios.defaults.baseURL}/${subroute}`,
     ...axios.defaults,
+    baseURL: `${axios.defaults.baseURL}/${subroute}`,
   });
 };
 
