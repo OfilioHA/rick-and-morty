@@ -14,5 +14,5 @@ export type TypeApiID = string | string[] | null;
 
 export interface IFetchHook<T> {
   loading: boolean;
-  result: T;
+  result: T | null;
 }
